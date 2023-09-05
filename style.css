@@ -1,0 +1,186 @@
+/* Importação ( Google Fonts ) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    background-color: #45597e;
+}
+
+/* Layout */
+.container {
+    margin: 0 auto;
+}
+
+.flex {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Botao {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    background-color: #EF5116;
+    padding: 10px 40px;
+    border-radius: 25px;
+}
+
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Cabeçalho */
+header {
+    height: 60px;
+}
+
+#logo img {
+    width: 55%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* Destaque */
+main {
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+main h1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 2.5;
+    margin-top: 1em;
+}
+
+main img {
+    width: 90%;
+    margin-top: 7em;
+}
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px) {
+
+    /* Cabeçalho */
+    header {
+        height: 60px;
+    }
+
+    #logo img {
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    /* Layout */
+    .container {
+        max-width: 540px;
+    }
+
+    /* Destaque */
+    main {
+        height: 10vh;
+    }
+    main img {
+        width: 90%;
+        margin-top: 25em;
+    }
+    main h1 {
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.5em;
+        line-height: 2.5;
+        margin-top: -1em;
+    }
+    #instagram {
+        margin-bottom: 50px;
+    }
+    #whatsapp {
+        margin-bottom: 50px;
+    }
+}
+
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) {
+
+    /* Cabeçalho */
+    header {
+        height: 60px;
+    }
+
+    #logo img {
+        width: 60%;
+        margin-top: 10px;
+    }
+
+    /* Layout */
+    .container {
+        max-width: 720px;
+    }
+
+    /* Destaque */
+    main {
+        height: 60vh;
+    }
+}
+
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) {
+
+    /* Cabeçalho */
+    header {
+        height: 60px;
+    }
+
+    #logo img {
+        width: 50%;
+        margin-top: 10px;
+    }
+
+    /* Layout */
+    .container {
+        max-width: 960px;
+    }
+
+    /* Destaque */
+    main {
+        height: 70vh;
+    }
+}
+
+/* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {
+
+    /* Cabeçalho */
+    header {
+        height: 60px;
+    }
+
+    #logo img {
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    /* Layout */
+    .container {
+        max-width: 1140px;
+    }
+
+    /* Destaque */
+    main {
+        height: 80vh;
+    }
+}
